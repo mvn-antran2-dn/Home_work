@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://flone.reactdemo.hasthemes.com/favicon.ico" type="image/x-icon">
+    <title>Flone | Book store Home</title>
+    <script src="https://kit.fontawesome.com/26bfa5fbae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <nav class="header-nav">
+            <div class="container d-flex flex-jc-spbw">
+                <a href="product.html" class="header-logo">
+                    <img src="https://flone.reactdemo.hasthemes.com/assets/img/logo/logo.png" alt="">
+                </a>
+                <ul class="header-menu d-flex flex-jc-center">
+                    <li class="menu-item">
+                        <a href="product.html">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Shop</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Collection</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Pages</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Block</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="cart.html">Cart</a>
+                    </li>
+                </ul>
+                <!-- Reusable purposes -->
+                <ul class="menu-action-list d-flex flex-jc-spar">
+                    <li class="menu-action-item ">
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li class="menu-action-item">
+                        <a href=""><i class="fa-solid fa-person-dress"></i></a>
+                    </li>
+                    <li class="menu-action-item">
+                        <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                    </li>
+                    <li class="menu-action-item">
+                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li class="menu-action-item">
+                        <a href="cart.html">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="count-product"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a class="d-none-mb nav-bar" href="">
+                <i class="fa-solid fa-bars"></i>
+
+            </a>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <div class="container">
+            <table class="tb-cart">
+                <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Product</th>
+                        <th>Amount</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer class="page-footer ">
+        <div class="container ">
+            <div class="row d-flex flex-jc-spar footer">
+                <div class="footer-logo  ">
+                    <a href="product.html" class="footer-logo-img">
+                        <img src="https://flone.reactdemo.hasthemes.com/assets/img/logo/logo.png" alt=" ">
+                    </a>
+                    <p>© 2022 <a href=" ">Flone</a> </p>
+                    <p>All Rights Reserved</p>
+                </div>
+                <div class="footer-content left">
+                    <h3 class="footer-col-title">ABOUT US</h3>
+                    <ul class="footer-col-list">
+                        <li class="footer-col-item">
+                            <a href=" https://flone.reactdemo.hasthemes.com/about">About us</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" https://flone.reactdemo.hasthemes.com/home-book-store-two#/">Store location</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" https://flone.reactdemo.hasthemes.com/contact">Contact</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" ">Orders tracking</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-content  mid">
+                    <h3 class="footer-col-title">USEFUL LINKS</h3>
+                    <ul class="footer-col-list">
+                        <li class="footer-col-item">
+                            <a href=" ">Returns</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" ">Support Policy</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" ">Size guide</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" ">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-content right">
+                    <h3 class="footer-col-title">FOLLOW US</h3>
+                    <ul class="footer-col-list">
+                        <li class="footer-col-item">
+                            <a href=" https://www.facebook.com/">Facebook</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" https://twitter.com/">Twitter</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" https://www.instagram.com/">Instagram</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href="https://www.youtube.com/ ">Youtube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-subcrite ">
+                    <h3 class="subcrite-title">SUBSCRIBE</h3>
+                    <p class="subcrite-content ">Get E-mail updates about our blogt shop and special offers.</p>
+                    <form action="" class="footer-form d-flex">
+                        <input type="text " placeholder="Enter your email address... ">
+                        <button class="tooter-btn-subcrite">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./cart.js"></script>
+</body>
+
+</html>
