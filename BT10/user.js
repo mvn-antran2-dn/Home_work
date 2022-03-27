@@ -19,8 +19,8 @@ function showUsers(users) {
 //Fetch
 fetch(url)
     .then((res) => res.json())
-    .then((info) => {
-        const users = info.data;
+    .then((result) => {
+        const users = result.data;
         showUsers(users);
     })
     .catch((error) => {
