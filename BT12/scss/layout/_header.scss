@@ -1,0 +1,74 @@
+.page-header {
+    @include pxRem(padding, 10);
+    background: map-get($colors, bg-gray);
+    text-align: center;
+    padding: 0;
+    .header-top {
+        background-color: map-get($colors, white);
+        border-bottom: map-get($colors, txt-gray-dark) solid 1px;
+        font-size: convertPxToRem(16px);
+        font-weight: map-get($font-weight, normal);
+        padding: convertPxToRem(15px) 0px;
+        .header-left {
+            .language {
+                padding: convertPxToRem(4px) convertPxToRem(15px);
+            }
+            .curency {
+                border-left: 1px solid map-get($colors, txt-gray-dark);
+                border-right: 1px solid map-get($colors, txt-gray-dark);
+                padding: convertPxToRem(4px) convertPxToRem(15px);
+            }
+            .phone-number {
+                padding: convertPxToRem(0) convertPxToRem(15px);
+            }
+        }
+        .header-right {
+            line-height: 0px;
+            .header-right-title {
+                span {
+                    color: map-get($colors, red);
+                }
+            }
+        }
+    }
+}
+
+.header-nav {
+    background-color: map-get($colors, white);
+    text-align: center;
+    height: convertPxToRem(100px);
+    line-height: convertPxToRem(100px);
+    .header-logo {
+        line-height: convertPxToRem(100px);
+    }
+    .header-menu {
+        gap: convertPxToRem(40px);
+        .menu-item {
+            font-size: convertPxToRem(16px);
+        }
+        .menu-item :hover {
+            color: map-get($colors, vio);
+        }
+    }
+    .social-list {
+        gap: convertPxToRem(20px);
+        .social-item {
+            sup {
+                font-size: convertPxToRem(10px);
+                line-height: convertPxToRem(20px);
+                background: map-get($colors, black);
+                color: map-get($colors, white);
+                padding: convertPxToRem(2px) convertPxToRem(5px);
+                text-align: center;
+                border-radius: 50%;
+            }
+            a {
+                color: map-get($colors, black);
+                background: transparent;
+                border: none;
+                outline: none;
+                font-size: convertPxToRem(16px);
+            }
+        }
+    }
+}

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://flone.reactdemo.hasthemes.com/favicon.ico" type="image/x-icon">
+    <title>Flone | Book store Home</title>
+    <script src="https://kit.fontawesome.com/26bfa5fbae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./scss/state/style.css">
+
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="header-top">
+            <div class="container d-flex flex-jc-spbw">
+                <div class="header-left">
+                    <ul class="language-curency-phone-numer row">
+                        <li class="language">
+                            <a href="">English</a>
+                        </li>
+                        <li class="curency">
+                            <a href="">EUR</a>
+                        </li>
+                        <li class="phone-number">
+                            <p>Call Us 3965410</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <p class="header-right-title">Free delivery on order over <span>€200.00</span></p>
+                </div>
+            </div>
+        </div>
+        <nav class="header-nav">
+            <div class="container d-flex flex-jc-spbw">
+                <a href="https://flone.reactdemo.hasthemes.com/" class="header-logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <ul class="header-menu d-flex flex-jc-center">
+                    <li class="menu-item">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Shop</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Collection</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Pages</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Block</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Contact US</a>
+                    </li>
+                </ul>
+                <!-- Reusable purposes -->
+                <ul class="social-list d-flex flex-jc-spar">
+                    <li class="social-item">
+                        <a href="" class="icon-search"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social-item">
+                        <a href="" class="icon-user"><i class="fa-solid fa-person-dress" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social-item">
+                        <a href=""><i class="fa-solid fa-shuffle" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social-item">
+                        <a href=""><i class="fa-solid fa-heart" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social-item">
+                        <a href=""><i class="fa-solid fa-bag-shopping" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <a class="d-none-mb nav-bar is-hidden" href="">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </a>
+        </nav>
+    </header>
+    <main class="page-main">
+        <section class="section-slideshow">
+            <ul class="slide-list">
+                <li class="slide-item slide-1">
+                    <img src="images/slider-1.jpg" alt="" />
+                    <div class="slide-content">
+                        <h4 class="slide-content-sale">2020 Latest Collection</h4>
+                        <h2 class="slide-content-desc"> -20% Offer All <br /> New Book.</h2>
+                        <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard" class="btn-shop-now">SHOP NOW</a>
+                    </div>
+                </li>
+                <!-- <li class="slide-item slide-2">
+                    <img src="images/slider-3.jpg" alt="" />
+                    <div class="slide-content">
+                        <h4>2020 Latest Collection</h4>
+                        <h2>-40% Offer All <br /> New Book.</h2>
+                        <a href="" class="shop-now slide-btn">SHOP NOW</a>
+                    </div>
+                </li> -->
+            </ul>
+            <div class="btn-slide">
+                <button class="btn btn-prev"><i class="fa-solid fa-angle-left" aria-hidden="true"></i></button>
+                <button class="btn btn-next"><i class="fa-solid fa-angle-right" aria-hidden="true"></i></button>
+            </div>
+            <ul class="slide-pagination">
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section class="section-banner banner-img-first d-flex flex-jc-center">
+            <div class="container">
+                <ul class="banner-first-list row d-flex ">
+                    <li class="banner-item banner-img col-5">
+                        <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard" class="banner-img"><img src="images/banner-1-1.jpg" alt=""></a>
+                    </li>
+                    <li class="banner-item banner-img col-5">
+                        <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard" class="banner-img"><img src="images/banner-1-2.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-product">
+            <div class="container">
+                <ul class="product-tab-list row d-flex flex-jc-center">
+                    <li class="product-tab-item  ">
+                        <a href="">New Arrivals</a>
+                    </li>
+                    <li class="product-tab-item active ">
+                        <a href="">Best Sellers</a>
+                    </li>
+                    <li class="product-tab-item  ">
+                        <a href="">Sale Items</a>
+                    </li>
+                </ul>
+                <ul class="product-list row x">
+                    <li class="product-item col-3">
+                        <div class="product-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/product/55" class="product-img-default">
+                                <img src="images/product-1.jpg" alt="">
+                            </a>
+                            <div class="product-img-badge d-flex ">
+                                <span class="product-sale">-40%</span>
+                                <span class="product-new">New</span>
+                            </div>
+                            <div class="img-total-action d-flex flex-jc-center">
+                                <button class="btn btn-add-to-wish"><i class="fa-solid fa-heart" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-cart"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-compare"><i class="fa-solid fa-shuffle" aria-hidden="true"></i></button>
+                                <button class="btn btn-quick-view"><i class="fa-solid fa-eye" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-name">Lorem ipsum book four</a>
+                            <p class="product-price">€4.26 - <span>€7.1</span></p>
+                        </div>
+                    </li>
+                    <li class="product-item col-3">
+                        <div class="product-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/product/57" class="product-img-default">
+                                <img src="images/product-2.jpg" alt="">
+                            </a>
+                            <div class="product-img-badge d-flex">
+                                <span class="product-sale">-10%</span>
+                                <span class="product-new">New</span>
+                            </div>
+                            <div class="img-total-action d-flex flex-jc-center">
+                                <button class="btn btn-add-to-wish"><i class="fa-solid fa-heart" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-cart"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-compare"><i class="fa-solid fa-shuffle" aria-hidden="true"></i></button>
+                                <button class="btn btn-quick-view"><i class="fa-solid fa-eye" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-name">Lorem ipsum book six</a>
+                            <p class="product-price">€4.95 - <span>€5.5</span></p>
+                        </div>
+                    </li>
+                    <li class="product-item col-3">
+                        <div class="product-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/product/56" class="product-img-default">
+                                <img src="images/product-3.jpg" alt="">
+                            </a>
+                            <div class="product-img-badge d-flex">
+                                <span class="product-sale">-30%</span>
+                            </div>
+                            <div class="img-total-action d-flex flex-jc-center">
+                                <button class="btn btn-add-to-wish"><i class="fa-solid fa-heart" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-cart"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-compare"><i class="fa-solid fa-shuffle" aria-hidden="true"></i></button>
+                                <button class="btn btn-quick-view"><i class="fa-solid fa-eye" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-name">Lorem ipsum book five</a>
+                            <p class="product-price">€6.02 - <span>€8.6</span></p>
+                        </div>
+                    </li>
+                    <li class="product-item col-3">
+                        <div class="product-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/product/56" class="product-img-default">
+                                <img src="images/product-4.jpg" alt="">
+                            </a>
+                            <div class="product-img-badge d-flex">
+                                <span class="product-sale">-15%</span>
+                                <span class="product-new">New</span>
+                            </div>
+                            <div class="img-total-action d-flex flex-jc-center">
+                                <button class="btn btn-add-to-wish"><i class="fa-solid fa-heart" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-cart"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-compare"><i class="fa-solid fa-shuffle" aria-hidden="true"></i></button>
+                                <button class="btn btn-quick-view"><i class="fa-solid fa-eye" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-name">Lorem ipsum book eight</a>
+                            <p class="product-price">€8.07 - <span>€8.5</span></p>
+                        </div>
+                    </li>
+                    <li class="product-item col-3">
+                        <div class="product-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/product/58" class="product-img-default">
+                                <img src="images/product-5.jpg" alt="">
+                            </a>
+                            <div class="product-img-badge d-flex">
+                                <span class="product-sale">-20%</span>
+                            </div>
+                            <div class="img-total-action d-flex flex-jc-center">
+                                <button class="btn btn-add-to-wish"><i class="fa-solid fa-heart" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-cart"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-compare"><i class="fa-solid fa-shuffle" aria-hidden="true"></i></button>
+                                <button class="btn btn-quick-view"><i class="fa-solid fa-eye" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-name">Lorem ipsum book seven</a>
+                            <p class="product-price">€2.56 - <span>€3.2</span></p>
+                        </div>
+                    </li>
+                    <li class="product-item col-3">
+                        <div class="product-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/product/54" class="product-img-default">
+                                <img src="images/product-6.jpg" alt="">
+                            </a>
+                            <div class="product-img-badge d-flex">
+                                <span class="product-sale">-20%</span>
+                                <span class="product-new">New</span>
+                            </div>
+                            <div class="img-total-action d-flex flex-jc-center">
+                                <button class="btn btn-add-to-wish"><i class="fa-solid fa-heart" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-cart"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-compare"><i class="fa-solid fa-shuffle" aria-hidden="true"></i></button>
+                                <button class="btn btn-quick-view"><i class="fa-solid fa-eye" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-name">Lorem ipsum book three</a>
+                            <p class="product-price">€5.28 - <span>€6.6</span></p>
+                        </div>
+                    </li>
+                    <li class="product-item col-3">
+                        <div class="product-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/product/52" class="product-img-default">
+                                <img src="images/product-7.jpg" alt="">
+                            </a>
+                            <div class="product-img-badge d-flex">
+                                <span class="product-sale">-30%</span>
+                                <span class="product-new">New</span>
+                            </div>
+                            <div class="img-total-action d-flex flex-jc-center">
+                                <button class="btn btn-add-to-wish"><i class="fa-solid fa-heart" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-cart"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-compare"><i class="fa-solid fa-shuffle" aria-hidden="true"></i></button>
+                                <button class="btn btn-quick-view"><i class="fa-solid fa-eye" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-name">Lorem ipsum book one</a>
+                            <p class="product-price">€4.55 - <span>€6.5</span></p>
+                        </div>
+                    </li>
+                    <li class="product-item col-3">
+                        <div class="product-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/product/53" class="product-img-default">
+                                <img src="images/product-8.jpg" alt="">
+                            </a>
+                            <div class="product-img-badge d-flex">
+                                <span class="product-new">New</span>
+                            </div>
+                            <div class="img-total-action d-flex flex-jc-center">
+                                <button class="btn btn-add-to-wish"><i class="fa-solid fa-heart" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-cart"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></button>
+                                <button class="btn btn-add-to-compare"><i class="fa-solid fa-shuffle" aria-hidden="true"></i></button>
+                                <button class="btn btn-quick-view"><i class="fa-solid fa-eye" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-name">Lorem ipsum book two</a>
+                            <p class="product-price">€4.2</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="product-view-more">
+                    <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard">VIEW MORE PRODUCTS</a>
+                </div>
+            </div>
+        </section>
+        <section class="section-banner banner-img-second">
+            <div class="container">
+                <ul class="banner-list row d-flex">
+                    <li class="banner-item banner-second col-4">
+                        <div class="banner-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard"><img src="images/banner-2-1.png" alt=""></a>
+                        </div>
+                        <div class="banner-info">
+                            <p class="banner-name">Historical</p>
+                            <p class="banner-price">Starting at <span>$99.00</span></p>
+                        </div>
+                        <div class="banner-next-shop">
+                            <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                        </div>
+                    </li>
+                    <li class="banner-item banner-second col-4">
+                        <div class="banner-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard"><img src="images/banner-2-2.png" alt=""></a>
+                        </div>
+                        <div class="banner-info">
+                            <p class="banner-name">Magazine</p>
+                            <p class="banner-price">Starting at <span>$79.00</span></p>
+                        </div>
+                        <div class="banner-next-shop">
+                            <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                        </div>
+                    </li>
+                    <li class="banner-item banner-second col-4">
+                        <div class="banner-img">
+                            <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard"><img src="images/banner-2-3.jpg" alt=""></a>
+                        </div>
+                        <div class="banner-info">
+                            <p class="banner-name">Bestseller</p>
+                            <p class="banner-price">Starting at <span>$29.00</span></p>
+                        </div>
+                        <div class="banner-next-shop">
+                            <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-deal">
+            <div class="container d-flex ">
+                <div class="deal-img">
+                    <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard"><img src="images/deal-1.png" alt=""></a>
+                </div>
+                <div class="deal-info ">
+                    <h2>Deal of the day</h2>
+                    <div class="deal-time d-flex flex-jc-center">
+                        <span class="days">0 <p>Days</p></span>
+                        <span class="hours">0 <p>Hours</p></span>
+                        <span class="minutes">0 <p>Minutes</p></span>
+                        <span class="second">0 <p>Second</p></span>
+                    </div>
+                    <a href="https://flone.reactdemo.hasthemes.com/shop-grid-standard" class="btn-shop-now">SHOP NOW</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="section-banner-text">
+            <div class="container">
+                <ul class="banner-text-list row d-flex flex-jc-spbw">
+                    <li class="banner-text-item col-4 left">
+                        <img src="images/banner-text-shipping.png" alt="">
+                        <p class="banner-text-info">FREE SHIPPING ON ALL ORDER</p>
+                    </li>
+                    <li class="banner-text-item col-4 mid">
+                        <img src="images/banner-text-money.png" alt="">
+                        <p class="banner-text-info">BACK GUARANTEE UNDER 5 DAYS</p>
+                    </li>
+                    <li class="banner-text-item col-4 right">
+                        <img src="images/banner-text-member.png" alt="">
+                        <p class="banner-text-info">ON EVERY ORDER OVER $150</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-blog">
+            <div class="container">
+                <div class="blog-title">
+                    <h2>Latest News</h2>
+                    <p>But I must explain to you how all this mistaken idea of denouncing.</p>
+                </div>
+                <ul class="blog-list row">
+                    <li class="blog-item col-4">
+                        <div class="blog-img ">
+                            <a href="https://flone.reactdemo.hasthemes.com/blog-details-standard" class="blog-img-default">
+                                <img src="images/blog-1.jpg" alt="">
+                            </a>
+                            <div class="blog-tag d-flex">
+                                <span class="badge-life-style">lifestyle</span>
+                                <span class="badge-men">men</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="" class="blog-header">A guide to latest trends</a></h3>
+                            <p class="blog-contact">By <a href=" ">Admin</a> </p>
+                        </div>
+                    </li>
+                    <li class="blog-item col-4">
+                        <div class="blog-img blog-mid">
+                            <a href="https://flone.reactdemo.hasthemes.com/blog-details-standard" class="blog-img-default">
+                                <img src="images/blog-2.jpg" alt="">
+                            </a>
+                            <div class="blog-tag">
+                                <span class="badge-men">men</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="" class="blog-header">Five ways to lead a happy life</a></h3>
+                            <p class="lates-contact">By <a href=" ">Admin</a> </p>
+                        </div>
+                    </li>
+                    <li class="blog-item col-4">
+                        <div class="blog-img blog-right">
+                            <a href="https://flone.reactdemo.hasthemes.com/blog-details-standard" class="blog-img-default">
+                                <img src="images/blog-3.jpg" alt="">
+                            </a>
+                            <div class="blog-tag">
+                                <span class="badge-life-style">lifestyle</span>
+                                <span class="badge-men">men</span>
+                            </div>
+                        </div>
+                        <div class="blog-content ">
+                            <h3><a href="" class="blog-header">Tips on having a happy life</a></h3>
+                            <p class="blog-contact">By <a href=" ">Admin</a> </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+    <footer class="page-footer ">
+        <div class="container ">
+            <div class="row d-flex flex-jc-spar footer">
+                <div class="footer-left  ">
+                    <a href=" https://flone.reactdemo.hasthemes.com/" class="footer-logo-img">
+                        <img src="images/logo.png" alt=" ">
+                    </a>
+                    <p>© 2022 <a href=" ">Flone</a> </p>
+                    <p>All Rights Reserved</p>
+                </div>
+                <div class="footer-middle-col">
+                    <h3 class="footer-middle-title">ABOUT US</h3>
+                    <ul class="footer-middle-list">
+                        <li class="footer-col-item">
+                            <a href=" https://flone.reactdemo.hasthemes.com/about">About us</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" https://flone.reactdemo.hasthemes.com/home-book-store-two#/">Store location</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" https://flone.reactdemo.hasthemes.com/contact">Contact</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" ">Orders tracking</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-middle-col">
+                    <h3 class="footer-middle-title">USEFUL LINKS</h3>
+                    <ul class="footer-middle-list">
+                        <li class="footer-col-item">
+                            <a href=" ">Returns</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" ">Support Policy</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" ">Size guide</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" ">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-middle-col">
+                    <h3 class="footer-middle-title">FOLLOW US</h3>
+                    <ul class="footer-middle-list">
+                        <li class="footer-col-item">
+                            <a href=" https://www.facebook.com/">Facebook</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" https://twitter.com/">Twitter</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href=" https://www.instagram.com/">Instagram</a>
+                        </li>
+                        <li class="footer-col-item">
+                            <a href="https://www.youtube.com/ ">Youtube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <form class="footer-right-form">
+                        <h3 class="footer-right-title">SUBSCRIBE</h3>
+                        <div class="footer-right-content">
+                            <p>
+                                Get E-mail updates about our latest shop and special offers.
+                            </p>
+                            <input class="footer-right-text" placeholder="Enter your email address..." type="text" />
+                            <br />
+                            <button class="btn-sub" type="submit">SUBSCRIBE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
